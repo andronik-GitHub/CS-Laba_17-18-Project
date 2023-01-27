@@ -18,20 +18,26 @@
                         <DropShadowEffect BlurRadius="30" Color="#ececed" ShadowDepth="0"/>
                     </Border.Effect>
 
-                    <TabControl Cursor="Hand">
-                        <TabItem>
+                    <TabControl>
+                        <TabItem Cursor="Hand" Width="0">
                             <TabItem.Header>
-                                <Image Source="IMG/home-48.png"/>
+                                <Button>
+                                    <Image Source="IMG/home-48.png"/>
+                                </Button>
                             </TabItem.Header>
-                            
+                        </TabItem>
+
+                        <TabItem Cursor="Hand" Header="Вхід">
                             <TabItem.Content>
-                                <Button Content="Hello" />
+                                <Button Content="Button two" />
                             </TabItem.Content>
                         </TabItem>
-                        
-                        <TabItem></TabItem>
-                        
-                        <TabItem></TabItem>
+
+                        <TabItem Cursor="Hand" Header="Реєстрація">
+                            <TabItem.Content>
+                                <Button Content="Button three" />
+                            </TabItem.Content>
+                        </TabItem>
                     </TabControl>
                 </Border>
             </StackPanel>
