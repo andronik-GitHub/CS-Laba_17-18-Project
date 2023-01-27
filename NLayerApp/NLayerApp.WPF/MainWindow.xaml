@@ -19,12 +19,7 @@
                     </Border.Effect>
 
                     <TabControl>
-                        <TabItem Cursor="Hand" Width="0">
-                            <TabItem.Header>
-                                    <Image Source="IMG/home-48.png"/>
-                            </TabItem.Header>
-                        </TabItem>
-
+                        
                         <TabItem Cursor="Hand" Header="Вхід">
                             <TabItem.Content>
                                 <StackPanel>
