@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:NLayerApp.WPF"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <!-- Maretial Design connection -->
+        <!-- Material Design connection -->
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />
