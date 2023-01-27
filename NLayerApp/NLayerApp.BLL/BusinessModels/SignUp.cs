@@ -1,6 +1,6 @@
 ﻿namespace NLayerApp.BLL.BusinessModels
 {
-    public class Registration
+    public class SignUp
     {
         public int Id;
         public string NikName { get; set; } = string.Empty;

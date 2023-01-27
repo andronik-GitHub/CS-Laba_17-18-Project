@@ -5,17 +5,17 @@ using NLayerApp.DAL.Entities;
 
 namespace NLayerApp.BLL.Services.Classes
 {
-    public class RegistrationService : IRegistrationService
+    public class SignUpService : IRegistrationService
     {
         public IUnitOfWork Database { get; set; }
 
-        public RegistrationService(IUnitOfWork database)
+        public SignUpService(IUnitOfWork database)
         {
             Database = database;
         }
 
 
-        public async Task<bool> Authorization(Registration reg) // авторизація(реєстрація)
+        public async Task<bool> Authorization(SignUp reg) // авторизація(реєстрація)
         {
             try
             {

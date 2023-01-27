@@ -2,7 +2,7 @@
 
 namespace NLayerApp.BLL.Services.Interfaces
 {
-    public interface IRegistrationService : IAuthorizationService<Registration>
+    public interface IRegistrationService : IAuthorizationService<SignUp>
     {
     }
 }
