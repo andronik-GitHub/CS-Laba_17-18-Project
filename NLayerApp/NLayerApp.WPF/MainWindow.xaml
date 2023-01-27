@@ -4,9 +4,38 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NLayerApp.WPF"
+        xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
-        Height="450" Width="800">
+        MinWidth="848" MinHeight="480" MaxWidth="1920" MaxHeight="1080">
 
     <Grid>
+        <Grid x:Name="AuthorizationWindow" Background="#F2F2F3">
+            <StackPanel MaxWidth="550" MinWidth="400" MaxHeight="450" MinHeight="350">
+                <TextBlock Text="Авторизація" HorizontalAlignment="Center" FontSize="30" Margin="0 0 0 30"/>
+
+                <Border MaxWidth="550" MinWidth="400" MaxHeight="450" MinHeight="350" Background="White" Padding="30" CornerRadius="20">
+                    <Border.Effect>
+                        <DropShadowEffect BlurRadius="30" Color="#ececed" ShadowDepth="0"/>
+                    </Border.Effect>
+
+                    <TabControl Cursor="Hand">
+                        <TabItem>
+                            <TabItem.Header>
+                                <Image Source="IMG/home-48.png"/>
+                            </TabItem.Header>
+                            
+                            <TabItem.Content>
+                                <Button Content="Hello" />
+                            </TabItem.Content>
+                        </TabItem>
+                        
+                        <TabItem></TabItem>
+                        
+                        <TabItem></TabItem>
+                    </TabControl>
+                </Border>
+            </StackPanel>
+        </Grid>
+        
     </Grid>
 </Window>
