@@ -29,7 +29,12 @@
 
                         <TabItem Cursor="Hand" Header="Вхід">
                             <TabItem.Content>
-                                <Button Content="Button two" />
+                                <StackPanel>
+                                    <TextBox md:HintAssist.Hint="Нікнейм або емейл"/>
+                                    <TextBox md:HintAssist.Hint="Пароль"/>
+
+                                    <Button Content="Ввійти" Margin="0 30"/>
+                                </StackPanel>
                             </TabItem.Content>
                         </TabItem>
 
